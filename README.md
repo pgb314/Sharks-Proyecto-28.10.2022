@@ -24,10 +24,13 @@ Average Age of non-fatal/fatal shark attacks
 6. All nan values in Object columns ('Type', 'Activity','Name','Sex','Age','Time','Fatal_bin','Species','Location','Area','Injury')
 7. Clean Type by substituting Boat and Boatomg by Boating
 8. Creating a new mean age column by creating a def that looks for keywords and returns the corresponding value and looks for numbers and adds the mean value to the column
-9. Clean any incongruences up in the Fatality column
-10. Clean any incongruences up in the Sex column
-11. Clean any incongruences up in the Case Number Column
-12. Attempt to clear up Species by grouping by keyword, searching for subgroups and attributing keywword to main term. All invalid rows are removed due to them being cases of non shark attacks
+9. Standardize Case Number
+10. Clean any incongruences up in the Fatality column
+11. Clean any incongruences up in the Sex column
+12. Clean any incongruences up in the Case Number Column
+13. Attempt to clear up Species by grouping by keyword, searching for subgroups and attributing keywword to main term. All invalid rows are removed due to them being cases of non shark attacks
+14. Fill Year nulls with the corresponding year from the CaseNumber
+15. 
 
 
 
