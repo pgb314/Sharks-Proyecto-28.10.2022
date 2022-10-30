@@ -30,17 +30,16 @@ Average Age of non-fatal/fatal shark attacks
 
 
 4. Clear up name inconsistencies, by removing spaces and any special symbols
-<<<<<<< HEAD
-5. All nan values in country are replaced by "unknown"
-6. All nan values in Object columns ('Type', 'Activity','Name','Sex','Age','Time','Fatal_bin','Species','Location','Area','Injury') are replaced by "unknown"
-=======
+
+
+
 5. All nan values in country are replaced by unknowns
 6. All nan values in Object columns ('Type', 'Activity','Name','Sex','Age','Time','Fatal_bin','Species','Location','Area','Injury') are replaced by unknowns
 
 ![Null Graph 3](https://user-images.githubusercontent.com/114666478/198870807-80827486-96b6-4c4a-9632-4ae1ef638921.png)
 
 
->>>>>>> c4f94469bdde45b138fcd413bd71bf7c5240bfdc
+
 7. Clean Type by substituting Boat and Boatomg by Boating
 8. Creating a new mean age column by creating a def that looks for keywords and returns the corresponding value and looks for numbers and adds the mean value to the column
 ![Mean age code](https://user-images.githubusercontent.com/114666478/198870908-0ecfe4a3-d9fd-4f56-908c-74e0bc254d89.PNG)
@@ -65,7 +64,7 @@ Average Age of non-fatal/fatal shark attacks
 ![Distribution of non deadly attacks](https://user-images.githubusercontent.com/114666478/198871010-c5263a18-f67e-4ee8-b3c7-3de081dbe139.png)
 
 16. Calculate stats for all three categories 
-<<<<<<< HEAD
+
 
 
 =======
@@ -83,5 +82,5 @@ Average Age of non-fatal/fatal shark attacks
 18. Delete Assisting columns num_nan fatal_bin sex_bin
 
 
->>>>>>> c4f94469bdde45b138fcd413bd71bf7c5240bfdc
+
 
