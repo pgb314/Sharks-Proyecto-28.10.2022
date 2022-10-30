@@ -46,6 +46,10 @@ Average Age of non-fatal/fatal shark attacks
 11. Clean any incongruences up in the Sex column
 12. Clean any incongruences up in the Case Number Column
 13. Attempt to clear up Species by grouping by keyword, searching for subgroups and attributing keywword to main term. All invalid rows are removed due to them being cases of non shark attacks
+
+![Species Cleaning](https://user-images.githubusercontent.com/114666478/198871239-e1226a71-481d-4280-8faf-9da89c4247fc.PNG)
+
+
 14. Fill Year nulls with the corresponding year from the CaseNumber
 15. Create Graph for Total Attacks,for deadly attacks and for non fatal attack, also create visualization for all three
 # All Attacks
@@ -56,6 +60,13 @@ Average Age of non-fatal/fatal shark attacks
 ![Distribution of non deadly attacks](https://user-images.githubusercontent.com/114666478/198871010-c5263a18-f67e-4ee8-b3c7-3de081dbe139.png)
 
 16. Calculate stats for all three categories 
+# Stats
+![Stats 1](https://user-images.githubusercontent.com/114666478/198871192-eb9241ef-111f-4833-972f-a53f15ccac55.PNG)
+![Stats2](https://user-images.githubusercontent.com/114666478/198871193-6b154f04-2729-4c86-bb5d-3e5f027ebed5.PNG)
+
 17. Sort by genders and calculate both the Total and Fatal mean ages for both genders, and the count
+![All fem, All male attacks Stats](https://user-images.githubusercontent.com/114666478/198872036-a6b1a757-df8a-4ac3-9972-689471307c95.PNG)
+
+![Male dead Female dead Stats](https://user-images.githubusercontent.com/114666478/198872039-d9490863-f28e-45db-aed2-22cf8fd1eba3.PNG)
 
 
