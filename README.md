@@ -20,6 +20,9 @@ Average Age of non-fatal/fatal shark attacks
 
 # Actual step results
 1. After exploration two columns are clearly not functional to the data set ( Unnamed: 22 , Unnamed: 23  ) we will erase them.
+
+![Null Graph 1 (pre-cleaning)](https://user-images.githubusercontent.com/114666478/198870742-686ada21-b971-4f10-b939-74fbc77dcabf.png)
+
 2. After the drop, it becomes clear that the frequency of nan starts for all columns at  a certain row, we have to find that shape, to then decide the amount of rows we can remove
 3. Above the high threshold of  equal more than 20 empty columns per row we drop the corresponding rows the shape of that threshold is (19414, 23) , we thus have around 6.3 thousand rows remaining.
 4. Clear up name inconsistencies, by removing spaces and any special symbols
