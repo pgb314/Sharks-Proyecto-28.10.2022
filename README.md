@@ -23,8 +23,8 @@ Average Age of non-fatal/fatal shark attacks
 2. After the drop, it becomes clear that the frequency of nan starts for all columns at  a certain row, we have to find that shape, to then decide the amount of rows we can remove
 3. Above the high threshold of  equal more than 20 empty columns per row we drop the corresponding rows the shape of that threshold is (19414, 23) , we thus have around 6.3 thousand rows remaining.
 4. Clear up name inconsistencies, by removing spaces and any special symbols
-5. All nan values in country are replaced by unknowns
-6. All nan values in Object columns ('Type', 'Activity','Name','Sex','Age','Time','Fatal_bin','Species','Location','Area','Injury') are replaced by unknowns
+5. All nan values in country are replaced by "unknown"
+6. All nan values in Object columns ('Type', 'Activity','Name','Sex','Age','Time','Fatal_bin','Species','Location','Area','Injury') are replaced by "unknown"
 7. Clean Type by substituting Boat and Boatomg by Boating
 8. Creating a new mean age column by creating a def that looks for keywords and returns the corresponding value and looks for numbers and adds the mean value to the column
 9. Standardize Case Number
@@ -35,6 +35,6 @@ Average Age of non-fatal/fatal shark attacks
 14. Fill Year nulls with the corresponding year from the CaseNumber
 15. Create Graph for Total Attacks,for deadly attacks and for non fatal attack, also create visualization for all three
 16. Calculate stats for all three categories 
-17. Sort by genders and calculate both the Total and Fatal mean ages for both genders, and the count
-
+17. Sort by genders and calculate both the Total and Fatal mean ages for both genders, and the correlation between gender and fatality and between fatality and mean age by creating assisting columns with 1 for Male and 1 for fatal
+18. Delete Assisting columns num_nan fatal_bin sex_bin
 
