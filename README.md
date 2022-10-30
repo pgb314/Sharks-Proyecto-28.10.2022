@@ -82,8 +82,9 @@ Average Age of non-fatal/fatal shark attacks
 
 ![Create fatal_bin](https://user-images.githubusercontent.com/114666478/198872577-335bfe18-ce31-4f30-88e7-b0b658897e5e.PNG)
 
-
 19. Delete Assisting columns num_nan fatal_bin sex_bin
+20. Downcast all float objects to float32
+21. upload clean data frame
 
 
 
