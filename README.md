@@ -66,17 +66,22 @@ Average Age of non-fatal/fatal shark attacks
 
 16. Calculate stats for all three categories 
 <<<<<<< HEAD
-17. Sort by genders and calculate both the Total and Fatal mean ages for both genders, and the correlation between gender and fatality and between fatality and mean age by creating assisting columns with 1 for Male and 1 for fatal
-18. Delete Assisting columns num_nan fatal_bin sex_bin
+
+
 =======
 # Stats
 ![Stats 1](https://user-images.githubusercontent.com/114666478/198871192-eb9241ef-111f-4833-972f-a53f15ccac55.PNG)
 ![Stats2](https://user-images.githubusercontent.com/114666478/198871193-6b154f04-2729-4c86-bb5d-3e5f027ebed5.PNG)
 
-17. Sort by genders and calculate both the Total and Fatal mean ages for both genders, and the count
+17. Sort by genders and calculate both the Total and Fatal mean ages for both genders,the count , and the correlation between gender and fatality and between fatality and mean age by creating assisting columns with 1 for Male and 1 for fatal
 ![All fem, All male attacks Stats](https://user-images.githubusercontent.com/114666478/198872036-a6b1a757-df8a-4ac3-9972-689471307c95.PNG)
 
 ![Male dead Female dead Stats](https://user-images.githubusercontent.com/114666478/198872039-d9490863-f28e-45db-aed2-22cf8fd1eba3.PNG)
+
+![Correlations](https://user-images.githubusercontent.com/114666478/198872211-14a2361d-b2cc-42aa-b541-acf140151626.PNG)
+
+18. Delete Assisting columns num_nan fatal_bin sex_bin
+
 
 >>>>>>> c4f94469bdde45b138fcd413bd71bf7c5240bfdc
 
