@@ -1,7 +1,7 @@
 # Sharks-Proyecto-28.10.2022
 Proyecto segunda semana
 ## Goals
-Get a fully cleaned dataset with at least 6 thousand rows and consistend data types.
+Get a fully cleaned dataset with at least 6 thousand rows and consistent data types.
 # Objective
 Average Age of non-fatal/fatal shark attacks
 
